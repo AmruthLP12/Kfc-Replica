@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background: url(./kfc-bcr3.png);
+}
+
+.box1{
+    height: 400px;
+    width: 40%;
+    background: #fff;
+    box-shadow: 0 4px 9px rgb(0 0 0 /15%);
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    margin: 100px 0 100px 30%;
+}
+
+a{
+    color: #202124;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.box1 .location-close{
+    position: absolute;
+    right: 482px;
+    top: 115px;
+}
+
+.box1 .location-close img{
+    width: 80%;
+}
+
+img{
+    border-style: none;
+    vertical-align: middle;
+}
+
+.box1 .location img{
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+/* 
+.box1 .location img:hover{
+    background: red;
+    box-shadow: 0 5px 10px 0 red;
+    border-radius: 5px;
+} */
+
+.box1 .location h3{
+    position: relative;
+    left: 5px;
+    top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    letter-spacing: .5px;
+    color: #202124;
+}
+
+.box1 .btn button{
+    height: 44px;
+    width: 156px;
+    margin-top: 50px;
+    margin-right: 450px;
+    position: relative;
+    left: 200px;
+    color: #ffff;
+    border-radius: 20px;
+    background: black;
+} 
+
+.box1 .btn button:hover{
+    cursor: pointer;
+    background: #202124;
+    color: #fff;
+}
+

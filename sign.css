@@ -1,0 +1,43 @@
+.sign>div{
+    text-align: center;
+    padding-top: 45px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;  
+    width:600px ;
+    margin-left: 450px;
+    color: black;
+
+}
+.p1{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 60px;
+}
+.p2{
+    cursor: pointer;
+    padding: 15px 200px;
+    border-radius: 60px; 
+    
+}
+.input{
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+    padding-right: 350px;
+    color: black;
+    outline: none;
+    
+    
+}
+.head{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#ee{
+    color: black;
+    margin-left: 3px;
+}
